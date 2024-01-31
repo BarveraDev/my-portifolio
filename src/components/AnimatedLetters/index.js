@@ -7,7 +7,10 @@ export function AnimatedLetters({ letterClass, stringArray, index }) {
         <span key={char + i} className={`${letterClass} _${i + index}`}>
           {char}
         </span>
+        
       ))}
+
+      
     </span>
   )
 }
